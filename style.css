@@ -80,4 +80,13 @@ label {
   margin: -1.1rem auto 0 auto;
   width: 89px;
 }
-     
+  .atas {
+            padding: 10px;
+            background: white;
+            width: 300px;
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        }    
+        .atas:hover{
+             box-shadow: 0px 1px 18px #2ec06f;
+             cursor: pointer;
+        }
