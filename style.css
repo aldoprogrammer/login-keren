@@ -1,9 +1,10 @@
- a {
+    a {
   text-decoration: none;
 }
 body {
   background: -webkit-linear-gradient(bottom, #56b021, #89da59);
   background-repeat: no-repeat;
+ height: 100%;
 }
 label {
   font-family: "Raleway", sans-serif;
@@ -16,32 +17,32 @@ label {
   margin-top: 3px;
   text-align: right;
 }
-#card {
+.card {
   background: #fbfbfb;
   border-radius: 8px;
   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-  height: 410px;
-  margin: 6rem auto 8.1rem auto;
+  height: 450px;
+  margin: 1rem auto 8.1rem auto;
   width: 329px;
 }
-#card-content {
+.card-content {
   padding: 12px 44px;
 }
-#card-title {
+.card-title {
   font-family: "Raleway Thin", sans-serif;
   letter-spacing: 4px;
   padding-bottom: 23px;
   padding-top: 13px;
   text-align: center;
 }
-#signup {
+.signup {
   color: #2dbd6e;
   font-family: "Raleway", sans-serif;
   font-size: 10pt;
   margin-top: 16px;
   text-align: center;
 }
-#submit-btn {
+.submit-btn {
   background: -webkit-linear-gradient(right, #336b87, #19668c);
   border: none;
   border-radius: 21px;
@@ -55,7 +56,25 @@ label {
   transition: 0.25s;
   width: 153px;
 }
-#submit-btn:hover {
+.submit-btn:hover {
+  box-shadow: 0px 1px 18px #bf8f0b;
+}
+.daftar {
+  background: -webkit-linear-gradient(right, #336b87, #19668c);
+  border: none;
+  border-radius: 21px;
+  box-shadow: 0px 1px 8px #c4930e;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: 0.25s;
+  width: 153px;
+
+}
+.daftar:hover {
   box-shadow: 0px 1px 18px #bf8f0b;
 }
 .form {
@@ -74,19 +93,27 @@ label {
   outline: none;
   padding-top: 14px;
 }
+.ahay {   
+  color: #2dbd6e;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 56px;
+  text-align: center;
+}
 .underline-title {
   background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
   height: 2px;
   margin: -1.1rem auto 0 auto;
   width: 89px;
 }
-  .atas {
+        .atas {
             padding: 10px;
-            background: white;
+            background: #e33719;
             width: 300px;
+            color: white;
             box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
         }    
         .atas:hover{
-             box-shadow: 0px 1px 18px #2ec06f;
+             box-shadow: 0px 1px 18px white;
              cursor: pointer;
         }
